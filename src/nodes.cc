@@ -286,7 +286,8 @@ NODE *value_node(AttrType type, void *value)
       n->u.VALUE.sval = (char *)value;
       break;
     case MBR:
-      n->u.VALUE.mval = (int *)value;
+      n->u.VALUE.mval = (char *)value;
+      printf("%s\n", n->u.VALUE.mval);
       break;
     }
     return n;
