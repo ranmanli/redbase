@@ -448,7 +448,6 @@ static void mk_value(NODE *node, Value &value)
          break;
       case MBR:
          value.data = (void *)node->u.VALUE.mval;
-         cout << value.data;
          break;
    }
 }

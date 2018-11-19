@@ -74,7 +74,7 @@ QL_Manager *pQlm;          // QL component manager
     float rval;
     char *sval;
     NODE *n;
-    int *mval;
+    char *mval;
 }
 
 %token     
